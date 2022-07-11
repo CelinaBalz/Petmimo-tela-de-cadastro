@@ -22,7 +22,7 @@
 }
 
 .titulo__formulario{
-    margin: 50px;
+    margin: 3.125rem;
     font-size: var(--tamanho-titulo);
 }
 
@@ -36,10 +36,15 @@
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 20%;
+    
 }
 
 .cadastro{
     background-image: url(/assets/img/ilustracao\ cadastro\ produto.png);
+}
+
+.cadastro-cartao{
+    background-image: url(/assets/img/ilustracao\ conclusao.png);
 }
 
 
@@ -119,4 +124,27 @@ form{
 
 .input-mensagem-erro{
     display: none;
+}
+
+.bloco{
+    grid-column: right;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.cadastro-cartao__icone-concluido {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+
+    background-image: url(/assets/img/checkmark.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 10%;
+    position: relative;
 }
