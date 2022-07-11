@@ -1,0 +1,27 @@
+:root{
+
+    /*Cores*/
+    --creme:#F6EDE8;
+    --escuro:#3B4046;
+    --amarelo:#FFCF2D;
+    --branco:#FEFDFB;
+    --aviso: #df2525;
+    --sucesso: #047900;
+
+    --sombra: 0px 4px 4px #CDBA79;;
+
+    /*Formatação de texto*/
+
+    --font-family:'Inter', sans-serif;
+    
+    --tamanho-titulo: 40px;
+    --tamanho-texto-destaque: 24px;
+    --tamanho-subtitulo: 22px;
+    --tamanho-placeholder: 18px;
+
+    --peso-titulo:bold;
+    --peso-subtitulo:medium;
+    --peso-placeholder:Light;
+
+
+}

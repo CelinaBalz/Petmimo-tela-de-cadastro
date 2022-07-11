@@ -1,0 +1,117 @@
+.navegacao {
+  padding-left: 20px;
+  display: flex;
+  gap: 2.2rem;
+  flex-direction: row;
+  align-items: center;
+}
+.navegacao .navegacao__lista {
+  display: flex;
+  flex-direction: row;
+  gap: 2.2rem;
+}
+.navegacao .navegacao__lista .navegacao__item {
+  color: var(--escuro);
+  font-weight: var(--peso-titulo);
+  font-size: var(--tamanho-texto-destaque);
+  text-decoration: none;
+}
+.navegacao .navegacao__lista .navegacao__item:hover {
+  text-decoration: underline;
+  color: #0e131a;
+}
+
+.titulo__formulario {
+  margin: 50px;
+  font-size: var(--tamanho-titulo);
+}
+
+.cartao {
+  display: grid;
+  grid-template-columns: [left] 1fr [right] 1fr;
+  background-image: url(/assets/img/Ilustracao\ cadastro.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 20%;
+}
+
+form {
+  grid-column: right;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form fieldset {
+  -webkit-margin-after: 50px;
+          margin-block-end: 50px;
+}
+form fieldset .formulario__legenda {
+  font-size: var(--tamanho-subtitulo);
+  margin: 30px;
+}
+form fieldset .input-container {
+  font-weight: var(--fonte-peso-input);
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+form fieldset .input-container .input {
+  border: none;
+  width: 500px;
+  padding-block: 1rem;
+  padding-left: 0.6rem;
+  padding-right: 1rem;
+  border-bottom: 1px #66ADED solid;
+  box-sizing: border-box;
+}
+form fieldset .input-container .input::-moz-placeholder {
+  font-size: var(--tamanho-placeholder);
+  visibility: hidden;
+  color: rgba(0, 0, 0, 0);
+}
+form fieldset .input-container .input:-ms-input-placeholder {
+  font-size: var(--tamanho-placeholder);
+  visibility: hidden;
+  color: rgba(0, 0, 0, 0);
+}
+form fieldset .input-container .input::placeholder {
+  font-size: var(--tamanho-placeholder);
+  visibility: hidden;
+  color: rgba(0, 0, 0, 0);
+}
+form fieldset .input-container .input:focus {
+  outline: none;
+}
+form fieldset .input-container .input-label {
+  position: absolute;
+  top: 1.375rem;
+  left: 0.5rem;
+  font-size: var(--fonte-tamanho-input-label);
+  transition: all 0.25s;
+}
+form fieldset .input-container .input:not(:-moz-placeholder-shown) + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  -moz-transition: all 0.25s;
+  transition: all 0.25s;
+}
+form fieldset .input-container .input:not(:-ms-input-placeholder) + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+}
+form fieldset .input-container .input:not(:placeholder-shown) + .input-label, form fieldset .input-container .input:focus + .input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.input-mensagem-erro {
+  display: none;
+}/*# sourceMappingURL=componentes.css.map */

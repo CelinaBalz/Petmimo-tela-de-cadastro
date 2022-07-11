@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+body{
+    background-color: var(--creme);
+    font-family: var(--font-family);
+    color: var(--escuro);
+}
+
+.container{
+    background-color: var(--branco);
+    margin-inline: 57px;
+    margin-block: 62px;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.botao{
+    background-color: var(--amarelo);
+    border-radius: 12px;
+    border: none;
+    font-size: var(--tamanho-subtitulo);
+    box-shadow: var(--sombra);
+    width: 230px;
+    height: 72px;
+    font-weight:var(--peso-titulo);
+}
