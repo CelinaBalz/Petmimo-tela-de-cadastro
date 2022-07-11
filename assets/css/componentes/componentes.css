@@ -35,6 +35,10 @@
   background-position-y: 20%;
 }
 
+.cadastro {
+  background-image: url(/assets/img/ilustracao\ cadastro\ produto.png);
+}
+
 form {
   grid-column: right;
   align-content: center;
