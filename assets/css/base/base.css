@@ -12,6 +12,9 @@ body {
   margin-block: 62px;
   border-radius: 40px;
   padding: 30px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .botao {
@@ -24,4 +27,10 @@ body {
   height: 72px;
   font-weight: 600;
   color: rgb(59, 51, 51);
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.botao:hover {
+  background-color: var(--amarelo-sombra);
 }/*# sourceMappingURL=base.css.map */

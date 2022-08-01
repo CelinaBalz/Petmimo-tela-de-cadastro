@@ -41,6 +41,9 @@
 
 .cadastro-cartao {
   background-image: url(/assets/img/ilustracao\ conclusao.png);
+  background-size: contain;
+  position: relative;
+  height: 70vh;
 }
 
 form {
@@ -141,6 +144,6 @@ form fieldset .input-container .input:not(:placeholder-shown) + .input-label, fo
   background-image: url(/assets/img/checkmark.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  top: 10%;
+  top: 5%;
   position: relative;
 }/*# sourceMappingURL=componentes.css.map */

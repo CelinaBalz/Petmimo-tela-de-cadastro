@@ -39,12 +39,16 @@
     
 }
 
+
 .cadastro{
     background-image: url(/assets/img/ilustracao\ cadastro\ produto.png);
 }
 
 .cadastro-cartao{
     background-image: url(/assets/img/ilustracao\ conclusao.png);
+    background-size: contain;
+    position: relative;
+    height: 70vh;
 }
 
 
@@ -145,6 +149,6 @@ form{
     background-image: url(/assets/img/checkmark.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    top: 10%;
+    top: 5%;
     position: relative;
 }

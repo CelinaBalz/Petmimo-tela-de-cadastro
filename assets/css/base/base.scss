@@ -13,7 +13,9 @@ body{
     margin-block: 62px;
     border-radius: 40px;
     padding: 30px;
+    height: max-content;
 }
+
 
 .botao{
     background-color: var(--amarelo);
@@ -25,4 +27,10 @@ body{
     height: 72px;
     font-weight:600;
     color: rgb(59, 51, 51);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    &:hover{
+        background-color: var(--amarelo-sombra);
+    }
 }
